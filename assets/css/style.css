@@ -348,7 +348,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #dee2e6;
+  color: #347554;
   font-family: "Poppins", sans-serif;
 }
 
@@ -357,7 +357,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #dee2e6;
+  background: #347554;
   margin: 4px 10px;
 }
 
@@ -482,7 +482,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #fefff3;
+  background: #ffffff;
   transition: ease-in-out 0.3s;
 }
 
@@ -503,7 +503,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: #ffffff;
+  background: #fdffc8;
 }
 
 /*--------------------------------------------------------------
@@ -655,7 +655,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: #fefff3;
+  background: #ffffff;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px
@@ -899,7 +899,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #dee2e6;
+  color: #347554;
   border-radius: 50%;
   padding: 14px;
   float: left;
