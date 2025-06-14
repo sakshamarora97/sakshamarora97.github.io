@@ -59,28 +59,56 @@ content:
     content:
       - layout: left
         title: WebstaurantStore
-        link: webstaurantstore.com
+        link: www.webstaurantstore.com
         # link_text: boringcompany.com
         sub_title: Data Scientist
         caption: February 2024 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        # quote: >
         description: | # this will include new lines to allow paragraphs
             - Partnered with Product, Content and Marketing to build end-to-end data products—churn-propensity scoring, seasonal-item tagging and a learning-to-rank search re-ranker—that drove -20 % subscription churn, +15 % trial-to-paid conversion and +10 % search engagement.
             - Operationalised the models with Spark/BigQuery features, FastAPI & MLflow retraining, and surfaced self-service dashboards that now steer freemium experiments and promo campaigns.
       - layout: left
-        title: WebstaurantStore
-        link: webstaurantstore.com
+        title: Paylocity
+        link: www.paylocity.com
         # link_text: boringcompany.com
-        sub_title: Data Scientist
-        caption: February 2024 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Data Science Intern
+        caption: May 2023 - Aug 2023
+        # quote: >
         description: | # this will include new lines to allow paragraphs
-            Partnered with Product, Content and Marketing to build end-to-end data products—churn-propensity scoring, seasonal-item tagging and a learning-to-rank search re-ranker—that drove -20 % subscription churn, +15 % trial-to-paid conversion and +10 % search engagement.
-            Operationalised the models with Spark/BigQuery features, FastAPI & MLflow retraining, and surfaced self-service dashboards that now steer freemium experiments and promo campaigns.
+            - Shipped an Azure/Kubernetes streaming fraud-detection service (LightGBM + SHAP) that trimmed false-positive alerts and manual reviews 30 %, hardening payroll security at scale
 
+      - layout: left
+        title: Anheuser-Busch InBev
+        link: www.ab-inbev.com
+        # link_text: boringcompany.com
+        sub_title: Data Scientist I
+        caption: Aug 2021 - Mar 2022
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+            - Co-led assortment-optimisation and elasticity modelling for a Top-5 grocery partner; causal-impact measurement confirmed +4 % revenue across 10 k stores and informed replenishment & promotion strategy
+            - Enhanced low-volume SKU substitution logic, improving forecast accuracy 10 % and freeing shelf space for high-velocity items
 
+      - layout: left
+        title: McKinsey & Company
+        link: www.mckinsey.com
+        # link_text: boringcompany.com
+        sub_title: Data Science Consultant
+        caption: Mar 2020 - Aug 2021
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+            - Advised retail & banking clients on data-driven growth—modelled TAM, look-alike segments and adoption drivers across 200 M+ rows—fueling personalisation features, UX redesigns and campaigns worth $4–6 M and 9–12 % KPI lifts.
+            - Mentored junior analysts and kept cross-functional teams aligned with client OKRs to deliver insights on time
+
+      - layout: left
+        title: Meesho
+        link: www.meesho.com
+        # link_text: boringcompany.com
+        sub_title: Data Science Consultant
+        caption: Mar 2020 - Aug 2021
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+            - Instrumented discovery funnels, surfaced low-engagement screens and ran UI experiments that lifted time-on-app 15 % and CTR 9 %, informing the personalisation roadmap
+            - Project-managed rollout of a screen-recording analytics tool, blending qualitative insight with event data for richer product decisions
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
