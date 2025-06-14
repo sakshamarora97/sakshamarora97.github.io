@@ -8,8 +8,8 @@ version: 2
 # Personal info
 name: Saksham Arora
 title: Data Scientist III
-email: sakshamarora97@gmail.com
-website: sakshamarora97.github.io
+email: saksham.arora97@gmail.com
+# website: sakshamarora97.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -22,7 +22,7 @@ github_username:  sakshamarora97
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: sakshamarora97/
+linkedin_username: sakshamarora97
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -66,8 +66,8 @@ content:
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Partnered with Product, Content and Marketing to build end-to-end data products—churn-propensity scoring, seasonal-item tagging and a learning-to-rank search re-ranker—that drove -20 % subscription churn, +15 % trial-to-paid conversion and +10 % search engagement.
-            Operationalised the models with Spark/BigQuery features, FastAPI & MLflow retraining, and surfaced self-service dashboards that now steer freemium experiments and promo campaigns.
+            - Partnered with Product, Content and Marketing to build end-to-end data products—churn-propensity scoring, seasonal-item tagging and a learning-to-rank search re-ranker—that drove -20 % subscription churn, +15 % trial-to-paid conversion and +10 % search engagement.
+            - Operationalised the models with Spark/BigQuery features, FastAPI & MLflow retraining, and surfaced self-service dashboards that now steer freemium experiments and promo campaigns.
       - layout: left
         title: WebstaurantStore
         link: webstaurantstore.com
