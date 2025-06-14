@@ -48,9 +48,12 @@ linkedin_username: sakshamarora97
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Saksham and I am Full Stack Data Scientist. I have 4+ years of experience translating customer, campaing and product usage data into bottom line wins for <mark>E-Commerce, SaaS and Finance</mark>. 
-  Skilled at the <mark>entire ML & analytics lifecycle</mark>, from wrangling millions of rows in Spark/BigQuery to shipping LightGBM and PyTorch models on GCP/Azure Kubernetes, and desigining experiments & dashboards that guide product and growth roadmaps. Signature results I'm proud to achieve include a <mark>20 % drop in subscription churn</mark>, a <mark>30 % cut in fraud-alert noise</mark>, and a <mark>4.2 % revenue lift</mark> across 10 k stores through assortment optimisation. 
-  I'm adept in <mark>Python, SQL, Power BI, Docker/MLflow and stakeholder storytelling</mark>, and have <mark>partnered with product, marketing and engineering</mark> to turn data insights into shipped features and profitable growth.
+  Hi, I'm Saksham and I am Full Stack Data Scientist. Turning data into product growth, ML at scale and marketing impact. 
+  
+  I have 4+ years of experience translating customer, campaing and product usage data into bottom line wins for <mark>E-Commerce</mark>, <mark>SaaS</mark> and <mark>Finance</mark>. 
+  Skilled at the <mark>entire ML & analytics lifecycle</mark>, from wrangling millions of rows in Spark/BigQuery to shipping LightGBM and PyTorch models on GCP/Azure Kubernetes, and desigining experiments & dashboards that guide product and growth roadmaps. Signature results I'm proud to achieve include a <mark>20 % drop</mark> in subscription <mark>churn</mark>, a <mark>30 % cut</mark> in <mark>fraud</mark>-alert noise</mark>, and a <mark>4.2 % revenue</mark> lift across 10 k stores through assortment optimisation. 
+  
+  I'm adept in Python, SQL, Power BI, Docker/MLflow and stakeholder storytelling</mark>, and have <mark>partnered with product, marketing and engineering to turn data insights into shipped features and profitable growth.
 #  I am most skilled in: AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
@@ -133,15 +136,52 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Georgia Institute of Technology
+        caption: 2022 - 2023
+        sub_title: MS Analytics
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - Coursework in analytical modelling, machine learning & deep-learning-for-text provides the statistical and engineering breadth behind both marketing experiments and production ML
+          - Twice selected as Graduate Teaching Assistant for “Analytical Modeling,” sharpening stakeholder-level storytelling of complex methods
+      - layout: left
+        title: Netaji Subhas Institute of Technology
+        caption: 2015 - 2019
+        sub_title: B.E. Instrumentation and Control
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Hardware-meets-software foundation in control systems and signal processing that underpins scalable data pipelines and causal-impact frameworks
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: LLM-assisted Clinical-Note Scorer
+        # caption: 2022 - 2023
+        # sub_title: MS Analytics
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Fine-tuned an instruction-driven transformer (Tk-Instruct) to surface medically relevant phrases, automating chart reviews and demonstrating transferable NLP/Gen-AI skills for any text-heavy domain.
+      - layout: left
+        title: Bayesian Marketing-Mix Modeling Sandbox
+        # caption: 2022 - 2023
+        # sub_title: MS Analytics
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Open-sourced a PyMC pipeline that disentangles media spend and seasonality, complete with an interactive scenario planner; illustrates experimental-design rigour and end-to-end MLOps (dockerised API, dashboard).
+
+      - layout: left
+        title: (Internal) ML Product Accelerators
+        # caption: 2022 - 2023
+        # sub_title: MS Analytics
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Re-usable notebooks for uplift modelling, search-ranking features and feature-store ETL; shorten concept-to-deploy time for cross-functional squads (details under NDA).
+
 
   - title: A Little More About Me
     layout: text
