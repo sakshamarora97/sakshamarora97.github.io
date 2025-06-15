@@ -68,6 +68,7 @@ content:
         sub_title: Data Scientist
         caption: February 2024 - Present
         # quote: >
+        ![alt text](/images/reorder.png "Reranking") 
         description: | # this will include new lines to allow paragraphs
             - Partnered with Product, Content and Marketing to build end-to-end data products—churn-propensity scoring, seasonal-item tagging and a learning-to-rank search re-ranker—that drove -20 % subscription churn, +15 % trial-to-paid conversion and +10 % search engagement.
             - Operationalised the models with Spark/BigQuery features, FastAPI & MLflow retraining, and surfaced self-service dashboards that now steer freemium experiments and promo campaigns.
