@@ -46,38 +46,38 @@ content:
   - title: Earlier Experience
     layout: text
     content: |
-<details class="earlier-experience">
-  <summary>Earlier Experience&nbsp;(2019 – 2022)</summary>
+      <details class="earlier-experience">
+        <summary>Earlier Experience&nbsp;(2019 – 2022)</summary>
 
-  <!-- Job cards below keep exactly the same “layout: left” grid as the main list.
-       Just add the utility class .experience-item so the new CSS can grab them. -->
+        <!-- Job cards below keep exactly the same “layout: left” grid as the main list.
+            Just add the utility class .experience-item so the new CSS can grab them. -->
 
-  <div class="experience-item">
-    <h3 class="title">Anheuser-Busch InBev <span class="sub_title">Data Scientist I</span></h3>
-    <span class="caption">Aug 2021 – Mar 2022</span>
-    <ul>
-      <li>Co-led assortment-optimisation & elasticity modelling (+4 % revenue across 10 k stores).</li>
-      <li>Enhanced low-volume SKU substitution logic, improving forecast accuracy 10 %.</li>
-    </ul>
-  </div>
+        <div class="experience-item">
+          <h3 class="title">Anheuser-Busch InBev <span class="sub_title">Data Scientist I</span></h3>
+          <span class="caption">Aug 2021 – Mar 2022</span>
+          <ul>
+            <li>Co-led assortment-optimisation & elasticity modelling (+4 % revenue across 10 k stores).</li>
+            <li>Enhanced low-volume SKU substitution logic, improving forecast accuracy 10 %.</li>
+          </ul>
+        </div>
 
-  <div class="experience-item">
-    <h3 class="title">McKinsey & Company <span class="sub_title">Data Science Consultant</span></h3>
-    <span class="caption">Mar 2020 – Aug 2021</span>
-    <ul>
-      <li>Modelled TAM, look-alike segments & adoption drivers across 200 M+ rows, driving 9–12 % KPI lifts.</li>
-      <li>Mentored analysts; kept cross-functional squads aligned with OKRs.</li>
-    </ul>
-  </div>
+        <div class="experience-item">
+          <h3 class="title">McKinsey & Company <span class="sub_title">Data Science Consultant</span></h3>
+          <span class="caption">Mar 2020 – Aug 2021</span>
+          <ul>
+            <li>Modelled TAM, look-alike segments & adoption drivers across 200 M+ rows, driving 9–12 % KPI lifts.</li>
+            <li>Mentored analysts; kept cross-functional squads aligned with OKRs.</li>
+          </ul>
+        </div>
 
-  <div class="experience-item">
-    <h3 class="title">Meesho <span class="sub_title">Data Science Consultant</span></h3>
-    <span class="caption">Mar 2020 – Aug 2021</span>
-    <ul>
-      <li>Instrumented discovery funnels & ran UI experiments, lifting time-on-app 15 % and CTR 9 %.</li>
-    </ul>
-  </div>
-</details>
+        <div class="experience-item">
+          <h3 class="title">Meesho <span class="sub_title">Data Science Consultant</span></h3>
+          <span class="caption">Mar 2020 – Aug 2021</span>
+          <ul>
+            <li>Instrumented discovery funnels & ran UI experiments, lifting time-on-app 15 % and CTR 9 %.</li>
+          </ul>
+        </div>
+      </details>
 
   - title: Education
     layout: list
