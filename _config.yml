@@ -20,84 +20,89 @@ darkmode: false
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  **I turn data into growth.** 4‑plus years shipping ML products that boost revenue, cut churn and tame fraud for **e‑commerce, SaaS and finance.**  
-  • **20 % ↓ churn** \| **4.2 % ↑ revenue** \| **30 % ↓ false‑positive alerts**  
-  Python • SQL • Spark/BigQuery • LightGBM • PyTorch • MLflow • GCP/Azure • Experiment design
+  **I turn data into growth.** Full‑stack data scientist with 4+ yrs experience shipping ML & analytics that lift revenue, cut churn and scale ops. Signature wins: **↓20 % churn**, **↑4 % revenue**, **↓30 % fraud noise**.
 
 content:
-  # ———————————————————————————————————————
   - title: Industry Experience
     layout: list
     content:
       - layout: left
         title: WebstaurantStore
-        link: https://www.webstaurantstore.com
+        link: www.webstaurantstore.com
         sub_title: Data Scientist
-        caption: Feb 2024 – Present
+        caption: Feb 2024 – Present
         description: |
-          - Built a **GBDT churn‑propensity model** (LightGBM, Spark) that **cut subscription churn 20 %** and now **scores 2 M users nightly** via MLflow.
-          - Deployed a **learning‑to‑rank search re‑ranker** that lifted CTR 10 % and engagement 15 %.
+          - Built churn‑propensity, seasonal‑tagging and learning‑to‑rank models that drove **−20 % subscription churn**, **+15 % trial‑to‑paid**, **+10 % search engagement**.
+          - Operationalised pipelines with Spark/BigQuery, FastAPI & MLflow and published self‑service dashboards guiding freemium experiments.
       - layout: left
         title: Paylocity
-        link: https://www.paylocity.com
+        link: www.paylocity.com
         sub_title: Data Science Intern
-        caption: May 2023 – Aug 2023
+        caption: May 2023 – Aug 2023
         description: |
-          - Shipped an Azure/Kubernetes streaming **fraud‑detection service** (LightGBM + SHAP) that trimmed false‑positive alerts and manual reviews 30 %.
+          - Deployed a streaming fraud‑detection service (LightGBM + SHAP on AKS) that cut false‑positive alerts **30 %** and manual review time.
 
-  # ———————————————————————————————————————
-  - title: |
-      <details><summary>Earlier&nbsp;Experience (click to expand)</summary>
+  - title: Earlier Experience
     layout: text
     content: |
-      <div markdown="1">
-      - **Anheuser‑Busch InBev — Data Scientist I** (Aug 2021 – Mar 2022)  
-        +4 % revenue across 10 k stores via assortment‑optimisation; 10 % ↑ forecast accuracy with SKU‑substitution logic.
-      - **McKinsey & Company — Data Science Consultant** (Mar 2020 – Aug 2021)  
-        Modelled TAM & look‑alike segments across 200 M rows, driving 9–12 % KPI lifts; mentored analysts.
-      - **Meesho — Data Science Consultant** (Mar 2020 – Aug 2021)  
-        UI experiments ↑ time‑on‑app 15 %, CTR 9 %; rolled out screen‑recording analytics tool.
-      </div>
+      <details>
+      <summary><strong>Click to expand earlier roles</strong></summary>
+
+      **Anheuser‑Busch InBev — Data Scientist I (Aug 2021 – Mar 2022)**  
+      • Co‑led assortment optimisation yielding **+4 % revenue** across 10 k stores.  
+      • Improved substitution logic ↑10 % forecast accuracy.
+
+      **McKinsey & Company — Data Science Consultant (Mar 2020 – Aug 2021)**  
+      • Modelled TAM & adoption drivers on 200 M rows, fueling personalised features worth \$4‑6 M.  
+      • Mentored analysts and aligned multi‑disciplinary squads with OKRs.
+
+      **Meesho — Data Science Consultant (Mar 2020 – Aug 2021)**  
+      • Instrumented discovery funnels; UI experiments ↑15 % time‑on‑app, ↑9 % CTR.  
+
       </details>
 
-  # ———————————————————————————————————————
-  - title: Projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: LLM‑assisted Clinical‑Note Scorer
-        link: https://github.com/sakshamarora97/clinical-note-scorer
-        description: |
-          - Fine‑tuned **Tk‑Instruct** to surface medically relevant phrases, automating chart reviews; demo Streamlit app lets recruiters play with the model.
-      - layout: top-middle
-        title: Bayesian Marketing‑Mix Sandbox
-        link: https://github.com/sakshamarora97/bayes-mmm
-        description: |
-          - Open‑sourced a **PyMC pipeline** with scenario planner; illustrates experimental‑design rigour & end‑to‑end MLOps (Docker, FastAPI, dashboards).
-      - layout: top-middle
-        title: Internal ML Product Accelerators
-        description: |
-          - Re‑usable notebooks for uplift modelling, search‑ranking features and feature‑store ETL; shorten concept‑to‑deploy time for cross‑functional squads.
-
-  # ———————————————————————————————————————
   - title: Education
     layout: list
     content:
       - layout: left
         title: Georgia Institute of Technology
-        caption: 2022 – 2023
+        caption: 2022 – 2023
         sub_title: MS Analytics
         description: |
-          - Coursework in analytical modelling, ML & deep‑learning‑for‑text underpins both marketing experiments and production ML.
+          - Coursework in analytical modelling, ML & deep‑learning‑for‑text.  
+          - Twice selected Graduate TA for “Analytical Modeling,” honing storytelling.
       - layout: left
         title: Netaji Subhas Institute of Technology
-        caption: 2015 – 2019
-        sub_title: B.E. Instrumentation & Control
+        caption: 2015 – 2019
+        sub_title: B.E. Instrumentation and Control
         description: |
-          - Hardware‑meets‑software foundation that informs scalable data pipelines and causal‑impact frameworks.
+          - Foundation in control systems & signal processing underpinning scalable data pipelines.
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: LLM‑assisted Clinical‑Note Scorer
+        link: https://github.com/sakshamarora97/clinical‑note‑scorer
+        quote: >
+          Fine‑tuned Tk‑Instruct to extract medically relevant phrases, automating chart reviews.
+        description: |
+          - Demonstrates Gen‑AI skill transfer to any text‑heavy domain.
+      - layout: top-middle
+        title: Bayesian Marketing‑Mix Modeling Sandbox
+        link: https://github.com/sakshamarora97/mmm‑sandbox
+        quote: >
+          PyMC pipeline disentangling media spend & seasonality with an interactive scenario planner.
+        description: |
+          - Shows experimental‑design rigour and end‑to‑end MLOps (Dockerised API, dashboard).
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Outside data science I enjoy bouldering, keyboards and improvised jazz.
 
 # Footer
-footer_show_references: false
+footer_show_references: true
 
 # Build settings
 remote_theme: sproogen/resume-theme
