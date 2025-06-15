@@ -47,8 +47,7 @@ content:
     layout: text
     content: |
       <details class="earlier-experience">
-        <summary>Earlier Experience&nbsp;(2019 – 2022)</summary>
-
+        <summary><span>Earlier Experience&nbsp;(2019 – 2022)</span></summary>
         <!-- Job cards below keep exactly the same “layout: left” grid as the main list.
             Just add the utility class .experience-item so the new CSS can grab them. -->
 
