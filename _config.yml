@@ -70,7 +70,7 @@ content:
         # quote: >
          
         description: | # this will include new lines to allow paragraphs
-            ![Reranking demo](/images/reorder.png "Reranking")
+            <img src="/images/reorder.png" width="100" height="100" alt="Reranking demo">
             - Partnered with Product, Content and Marketing to build end-to-end data products—churn-propensity scoring, seasonal-item tagging and a learning-to-rank search re-ranker—that drove -20 % subscription churn, +15 % trial-to-paid conversion and +10 % search engagement.
             - Operationalised the models with Spark/BigQuery features, FastAPI & MLflow retraining, and surfaced self-service dashboards that now steer freemium experiments and promo campaigns.
       - layout: left
