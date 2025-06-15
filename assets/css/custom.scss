@@ -35,6 +35,27 @@ details.earlier-experience summary:hover { text-decoration: underline; }
 
 /* inner job cards — borrow the exact grid the theme uses */
 details.earlier-experience .experience-item {
-  @extend .left;            /* piggy-back the theme’s “left” layout */
-  margin-bottom: 1.4rem;
+  margin: 1.4rem 0;          /* same vertical spacing as main cards */
+  text-align: center;        /* headings centred */
+}
+
+details.earlier-experience .experience-item .title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: .4rem 0;
+}
+
+details.earlier-experience .experience-item .caption {
+  display: block;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-bottom: .2rem;
+  color: var(--theme-primary-dark);
+}
+
+details.earlier-experience .experience-item ul {
+  list-style: disc;
+  padding-left: 1.2rem;      /* indent bullets */
+  text-align: left;          /* bullets flush left */
 }
