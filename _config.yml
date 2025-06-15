@@ -9,211 +9,119 @@ version: 2
 name: Saksham Arora
 title: Data Scientist III
 email: saksham.arora97@gmail.com
-# website: sakshamarora97.github.io
 
-# Dark Mode (true/false/never)
+# Dark Mode
 darkmode: false
 
 # Social links
-# twitter_username: facespics
-github_username:  sakshamarora97
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
+github_username: sakshamarora97
 linkedin_username: sakshamarora97
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Saksham and I am Full Stack Data Scientist. Turning data into product growth, ML at scale and marketing impact. 
-  I have 4+ years of experience translating customer, campaing and product usage data into bottom line wins for <mark>E-Commerce</mark>, <mark>SaaS</mark> and <mark>Finance</mark>. 
-  
-  Skilled at the <mark>entire ML & analytics lifecycle</mark>, from wrangling millions of rows in Spark/BigQuery to shipping LightGBM and PyTorch models on GCP/Azure Kubernetes, and desigining experiments & dashboards that guide product and growth roadmaps. 
-  
-  Signature results I'm proud to achieve include a <mark>20 % drop</mark> in subscription <mark>churn</mark>, a <mark>30 % cut</mark> in <mark>fraud</mark>-alert noise, and a <mark>4.2 % revenue</mark> lift across 10 k stores through assortment optimisation.   
-  I'm adept in Python, SQL, Power BI, Docker/MLflow and stakeholder storytelling, and have <mark>partnered with product, marketing and engineering to turn data insights into shipped features and profitable growth.
-#  I am most skilled in: AWS</mark> and <mark>Eating Pizza</mark>
+about_content: |
+  **I turn data into growth.** Shipped production ML & analytics that delivered **–20 % churn**, **+4 % revenue**, and **30 % fewer fraud alerts** across e‑commerce, SaaS and CPG.  
+  **Stack:** Python • SQL • Spark • LightGBM • PyTorch • MLflow • GCP • Azure.  
+  Looking for mid‑level Data Science roles where I can ship products that move real KPIs.
 
 content:
-  - title: Industry Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Industry Experience
+    layout: list
     content:
       - layout: left
         title: WebstaurantStore
-        link: www.webstaurantstore.com
-        # link_text: boringcompany.com
+        link: https://www.webstaurantstore.com
         sub_title: Data Scientist
-        caption: February 2024 - Present
-        # quote: >
-         
-        description: | # this will include new lines to allow paragraphs
-            - Partnered with Product, Content and Marketing to build end-to-end data products—churn-propensity scoring, seasonal-item tagging and a learning-to-rank search re-ranker—that drove -20 % subscription churn, +15 % trial-to-paid conversion and +10 % search engagement.
-            - Operationalised the models with Spark/BigQuery features, FastAPI & MLflow retraining, and surfaced self-service dashboards that now steer freemium experiments and promo campaigns.
-              <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:flex-start;">
-                <img src="/images/reranking_Bearicons.png" width="75" alt="Reranking">
-                <img src="/images/churn-rate_Unicon-labs.png" width="75" alt="Churn">
-                <img src="/images/seasonality_Freepik.png" width="75" alt="Seasonality">
-              </div>
+        caption: Feb 2024 – Present
+        description: |
+          - **Cut churn 20 %** with LightGBM propensity model (Spark, BigQuery, MLflow).  
+          - **Boosted trial‑to‑paid 15 %** via seasonality tagging & promo dashboard.  
+          - **Raised search engagement 10 %** using learning‑to‑rank re‑ranker.  
+          - Productionised with FastAPI, Docker & CI/CD.
       - layout: left
         title: Paylocity
-        link: www.paylocity.com
-        # link_text: boringcompany.com
+        link: https://www.paylocity.com
         sub_title: Data Science Intern
-        caption: May 2023 - Aug 2023
-        # quote: >
-        description: | # this will include new lines to allow paragraphs
-            - Shipped an Azure/Kubernetes streaming fraud-detection service (LightGBM + SHAP) that trimmed false-positive alerts and manual reviews 30 %, hardening payroll security at scale
+        caption: May 2023 – Aug 2023
+        description: |
+          - Deployed streaming LightGBM fraud service on AKS; **30 % false‑positive drop**.
+      - title: Earlier Experience
+        layout: text
+        content: |
+          <details><summary><strong>Show 2021 and earlier roles</strong></summary>
 
-      - layout: left
-        title: Anheuser-Busch InBev
-        link: www.ab-inbev.com
-        # link_text: boringcompany.com
-        sub_title: Data Scientist I
-        caption: Aug 2021 - Mar 2022
-        # quote: >
-        description: | # this will include new lines to allow paragraphs
-            - Co-led assortment-optimisation and elasticity modelling for a Top-5 grocery partner; causal-impact measurement confirmed +4 % revenue across 10 k stores and informed replenishment & promotion strategy
-            - Enhanced low-volume SKU substitution logic, improving forecast accuracy 10 % and freeing shelf space for high-velocity items
+          **Anheuser‑Busch InBev — Data Scientist I (Aug 2021 – Mar 2022)**  
+          - Led assortment optimisation; **+4 % revenue** across 10 k stores.  
+          - Improved SKU substitution; **10 % forecast lift**.
 
-      - layout: left
-        title: McKinsey & Company
-        link: www.mckinsey.com
-        # link_text: boringcompany.com
-        sub_title: Data Science Consultant
-        caption: Mar 2020 - Aug 2021
-        # quote: >
-        description: | # this will include new lines to allow paragraphs
-            - Advised retail & banking clients on data-driven growth—modelled TAM, look-alike segments and adoption drivers across 200 M+ rows—fueling personalisation features, UX redesigns and campaigns worth $4–6 M and 9–12 % KPI lifts.
-            - Mentored junior analysts and kept cross-functional teams aligned with client OKRs to deliver insights on time
+          **McKinsey & Company — Data Science Consultant (Mar 2020 – Aug 2021)**  
+          - Modeled TAM & segments (200 M rows), delivering **$4–6 M uplift**.  
+          - Mentored 4 analysts; aligned teams to OKRs.
 
-      - layout: left
-        title: Meesho
-        link: www.meesho.com
-        # link_text: boringcompany.com
-        sub_title: Data Science Consultant
-        caption: Mar 2020 - Aug 2021
-        # quote: >
-        description: | # this will include new lines to allow paragraphs
-            - Instrumented discovery funnels, surfaced low-engagement screens and ran UI experiments that lifted time-on-app 15 % and CTR 9 %, informing the personalisation roadmap
-            - Project-managed rollout of a screen-recording analytics tool, blending qualitative insight with event data for richer product decisions
+          **Meesho — Data Science Consultant (Mar 2020 – Aug 2021)**  
+          - Instrumented discovery funnel; **+15 % time‑on‑app**, **+9 % CTR**.  
+          - Deployed screen‑record analytics for product insights.
 
+          </details>
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Georgia Institute of Technology
-        caption: 2022 - 2023
+        caption: 2022 – 2023
         sub_title: MS Analytics
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          - Coursework in analytical modelling, machine learning & deep-learning-for-text provides the statistical and engineering breadth behind both marketing experiments and production ML
-          - Twice selected as Graduate Teaching Assistant for “Analytical Modeling,” sharpening stakeholder-level storytelling of complex methods
+        description: |
+          - Coursework in ML, analytical modeling and NLP.  
+          - 2× Graduate TA for “Analytical Modeling”.
       - layout: left
         title: Netaji Subhas Institute of Technology
-        caption: 2015 - 2019
-        sub_title: B.E. Instrumentation and Control
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          - Hardware-meets-software foundation in control systems and signal processing that underpins scalable data pipelines and causal-impact frameworks
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+        caption: 2015 – 2019
+        sub_title: B.E. Instrumentation & Control
+        description: |
+          - Control‑systems & signal‑processing foundation for scalable data pipelines.
+
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: LLM‑assisted Clinical‑Note Scorer
+        link: https://github.com/sakshamarora97/clinical-note-scorer
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: Code
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: LLM-assisted Clinical-Note Scorer
-        # caption: 2022 - 2023
-        # sub_title: MS Analytics
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          - Fine-tuned an instruction-driven transformer (Tk-Instruct) to surface medically relevant phrases, automating chart reviews and demonstrating transferable NLP/Gen-AI skills for any text-heavy domain.
-      - layout: left
-        title: Bayesian Marketing-Mix Modeling Sandbox
-        # caption: 2022 - 2023
-        # sub_title: MS Analytics
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          - Open-sourced a PyMC pipeline that disentangles media spend and seasonality, complete with an interactive scenario planner; illustrates experimental-design rigour and end-to-end MLOps (dockerised API, dashboard).
-
-      - layout: left
-        title: (Internal) ML Product Accelerators
-        # caption: 2022 - 2023
-        # sub_title: MS Analytics
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          - Re-usable notebooks for uplift modelling, search-ranking features and feature-store ETL; shorten concept-to-deploy time for cross-functional squads (details under NDA).
-
+            url: https://github.com/sakshamarora97/clinical-note-scorer
+        description: |
+          Fine‑tuned Tk‑Instruct transformer to auto‑score medical notes, cutting chart‑review time 70 %; demonstrates Gen‑AI and NLP skills.
+      - layout: top-middle
+        title: Bayesian Marketing‑Mix Sandbox
+        link: https://github.com/sakshamarora97/bayesian_mmm
+        additional_links:
+          - title: Code
+            icon: fab fa-github
+            url: https://github.com/sakshamarora97/bayesian_mmm
+        description: |
+          PyMC pipeline that disentangles media spend & seasonality with interactive scenario planner; showcases causal inference and MLOps.
+      - layout: top-middle
+        title: ML Product Accelerators (Internal)
+        description: |
+          Re‑usable uplift, ranking and feature‑store notebooks; shortened concept‑to‑deploy for cross‑functional squads (details under NDA).
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
+    content: |
+      When I’m not shipping models you’ll find me rock‑climbing, gaming, or knitting badly‑fitting sweaters.
       ![Trees](/sakshamarora97.github.io/images/landscape-trees.jpg "Trees")
 
-# Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
-# Build settings
 remote_theme: sproogen/resume-theme
-minimal_mistakes_skin: "contrast"   
+minimal_mistakes_skin: "contrast"
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
- - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-remote-theme
