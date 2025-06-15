@@ -76,7 +76,7 @@ content:
                 <img src="/images/reranking_Bearicons.png" width="75" alt="Reranking">
                 <img src="/images/churn-rate_Unicon-labs.png" width="75" alt="Churn">
                 <img src="/images/seasonality_Freepik.png" width="75" alt="Seasonality">
-            </div>
+              </div>
       - layout: left
         title: Paylocity
         link: www.paylocity.com
