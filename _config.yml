@@ -4,8 +4,7 @@ favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
-custom_css:
-  - /assets/css/custom.css
+
 # Personal info
 name: Saksham Arora
 title: Data Scientist III
@@ -21,7 +20,7 @@ darkmode: false
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  **I turn data into growth.** Full‑stack data scientist with 4+ yrs experience shipping ML & analytics that lift revenue, cut churn and scale ops. Signature wins: **↓20 % churn**, **↑4 % revenue**, **↓30 % fraud noise**.
+  **I turn data into growth.** Full‑stack data scientist with 4+ years' experience shipping ML & analytics that lift revenue, cut churn and scale ops. Signature wins include **↓20 % churn**, **↑4 % revenue**, and **↓30 % fraud noise**.
 
 content:
   - title: Industry Experience
@@ -29,54 +28,47 @@ content:
     content:
       - layout: left
         title: WebstaurantStore
-        link: www.webstaurantstore.com
+        link: https://www.webstaurantstore.com
         sub_title: Data Scientist
         caption: Feb 2024 – Present
         description: |
-          - Built churn‑propensity, seasonal‑tagging and learning‑to‑rank models that drove **−20 % subscription churn**, **+15 % trial‑to‑paid**, **+10 % search engagement**.
-          - Operationalised pipelines with Spark/BigQuery, FastAPI & MLflow and published self‑service dashboards guiding freemium experiments.
+          - Built churn‑propensity, seasonal‑tagging and learning‑to‑rank models that drove **−20 % subscription churn**, **+15 % trial‑to‑paid**, and **+10 % search engagement**.
+          - Productionised pipelines with Spark/BigQuery, FastAPI & MLflow, and shipped self‑service dashboards guiding freemium experiments.
       - layout: left
         title: Paylocity
-        link: www.paylocity.com
+        link: https://www.paylocity.com
         sub_title: Data Science Intern
-        caption: May 2023 – Aug 2023
+        caption: May 2023 – Aug 2023
         description: |
           - Deployed a streaming fraud‑detection service (LightGBM + SHAP on AKS) that cut false‑positive alerts **30 %** and manual review time.
 
-  - title: Earlier Experience
-    layout: text
-    content: |
-      <details class="earlier-experience">
-        <summary><span>Earlier Experience&nbsp;(2019 – 2022)</span></summary>
-        <!-- Job cards below keep exactly the same “layout: left” grid as the main list.
-            Just add the utility class .experience-item so the new CSS can grab them. -->
-
-        <div class="experience-item">
-          <h3 class="title">Anheuser-Busch InBev <span class="sub_title">Data Scientist I</span></h3>
-          <span class="caption">Aug 2021 – Mar 2022</span>
-          <ul>
-            <li>Co-led assortment-optimisation & elasticity modelling (+4 % revenue across 10 k stores).</li>
-            <li>Enhanced low-volume SKU substitution logic, improving forecast accuracy 10 %.</li>
-          </ul>
-        </div>
-
-        <div class="experience-item">
-          <h3 class="title">McKinsey & Company <span class="sub_title">Data Science Consultant</span></h3>
-          <span class="caption">Mar 2020 – Aug 2021</span>
-          <ul>
-            <li>Modelled TAM, look-alike segments & adoption drivers across 200 M+ rows, driving 9–12 % KPI lifts.</li>
-            <li>Mentored analysts; kept cross-functional squads aligned with OKRs.</li>
-          </ul>
-        </div>
-
-        <div class="experience-item">
-          <h3 class="title">Meesho <span class="sub_title">Data Science Consultant</span></h3>
-          <span class="caption">Mar 2020 – Aug 2021</span>
-          <ul>
-            <li>Instrumented discovery funnels & ran UI experiments, lifting time-on-app 15 % and CTR 9 %.</li>
-          </ul>
-        </div>
-      </details>
+  - title: Earlier Experience (2019 – 2022)
+    layout: list
+    content:
+      - layout: left
+        title: Anheuser‑Busch InBev
+        link: https://www.ab-inbev.com
+        sub_title: Data Scientist I
+        caption: Aug 2021 – Mar 2022
+        description: |
+          - Co‑led assortment‑optimisation & elasticity modelling; causal‑impact tests confirmed **+4 % revenue** across 10 k stores.
+          - Improved low‑volume SKU substitution logic, boosting forecast accuracy **10 %**.
+      - layout: left
+        title: McKinsey & Company
+        link: https://www.mckinsey.com
+        sub_title: Data Science Consultant
+        caption: Mar 2020 – Aug 2021
+        description: |
+          - Modelled TAM, look‑alike segments & adoption drivers on 200 M+ rows, driving **9–12 %** KPI lifts and informing $4–6 M growth initiatives.
+          - Mentored analysts and aligned cross‑functional squads with client OKRs.
+      - layout: left
+        title: Meesho
+        link: https://www.meesho.com
+        sub_title: Data Science Consultant
+        caption: Mar 2020 – Aug 2021
+        description: |
+          - Instrumented discovery funnels & ran UI experiments, lifting time‑on‑app **15 %** and CTR **9 %**.
+          - Led rollout of screen‑recording analytics that blended qualitative and quantitative insights.
 
   - title: Education
     layout: list
@@ -86,37 +78,44 @@ content:
         caption: 2022 – 2023
         sub_title: MS Analytics
         description: |
-          - Coursework in analytical modelling, ML & deep‑learning‑for‑text.  
-          - Twice selected Graduate TA for “Analytical Modeling,” honing storytelling.
+          - Coursework in analytical modelling, ML & deep‑learning‑for‑text.
+          - Twice selected Graduate TA for “Analytical Modeling.”
       - layout: left
         title: Netaji Subhas Institute of Technology
         caption: 2015 – 2019
-        sub_title: B.E. Instrumentation and Control
+        sub_title: B.E. Instrumentation & Control
         description: |
-          - Foundation in control systems & signal processing underpinning scalable data pipelines.
+          - Foundation in control systems and signal processing underpinning scalable data pipelines.
 
   - title: Projects
     layout: list
     content:
       - layout: top-middle
         title: LLM‑assisted Clinical‑Note Scorer
-        link: https://github.com/sakshamarora97/clinical‑note‑scorer
-        quote: >
-          Fine‑tuned Tk‑Instruct to extract medically relevant phrases, automating chart reviews.
+        link: https://github.com/sakshamarora97/clinical-note-scorer
+        quote: >-
+          Fine‑tuned Tk‑Instruct to automate chart reviews.
         description: |
           - Demonstrates Gen‑AI skill transfer to any text‑heavy domain.
       - layout: top-middle
         title: Bayesian Marketing‑Mix Modeling Sandbox
-        link: https://github.com/sakshamarora97/mmm‑sandbox
-        quote: >
-          PyMC pipeline disentangling media spend & seasonality with an interactive scenario planner.
+        link: https://github.com/sakshamarora97/mmm-sandbox
+        quote: >-
+          PyMC pipeline disentangling media spend & seasonality.
         description: |
-          - Shows experimental‑design rigour and end‑to‑end MLOps (Dockerised API, dashboard).
+          - Interactive scenario planner; illustrates experimental‑design rigour and MLOps.
+      - layout: top-middle
+        title: Internal ML Product Accelerators
+        link: https://github.com/sakshamarora97
+        quote: >-
+          Re‑usable notebooks for uplift modelling and feature‑store ETL.
+        description: |
+          - Shortens concept‑to‑deploy time for cross‑functional squads (details under NDA).
 
   - title: A Little More About Me
     layout: text
     content: |
-      Outside data science I enjoy bouldering, keyboards and improvised jazz.
+      Outside data science I enjoy bouldering, mechanical keyboards and improvised jazz.
 
 # Footer
 footer_show_references: true
@@ -124,5 +123,5 @@ footer_show_references: true
 # Build settings
 remote_theme: sproogen/resume-theme
 plugins:
- - jekyll-seo-tag
- - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-remote-theme
