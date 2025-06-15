@@ -31,7 +31,7 @@ details.earlier-experience summary:hover{text-decoration:underline;}
 
 /* 3. inner job cards — borrow the theme’s grid */
 details.earlier-experience .experience-item{
-  @extend .left;              /* piggy-back the existing layout */
+  @extend .layout--left;              /* piggy-back the existing layout */
   margin-bottom:1.4rem;
 }
 details.earlier-experience summary {
