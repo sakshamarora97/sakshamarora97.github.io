@@ -10,21 +10,22 @@ name: Saksham Arora
 title: Data Scientist III
 email: saksham.arora97@gmail.com
 
-# Dark Mode
-darkmode: false
-
 # Social links
 github_username: sakshamarora97
 linkedin_username: sakshamarora97
 
+# Dark Mode (true/false/never)
+darkmode: false
+
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  **I turn data into growth.** Shipped production ML & analytics that delivered **–20 % churn**, **+4 % revenue**, and **30 % fewer fraud alerts** across e‑commerce, SaaS and CPG.  
-  **Stack:** Python • SQL • Spark • LightGBM • PyTorch • MLflow • GCP • Azure.  
-  Looking for mid‑level Data Science roles where I can ship products that move real KPIs.
+  **I turn data into growth.** 4‑plus years shipping ML products that boost revenue, cut churn and tame fraud for **e‑commerce, SaaS and finance.**  
+  • **20 % ↓ churn** \| **4.2 % ↑ revenue** \| **30 % ↓ false‑positive alerts**  
+  Python • SQL • Spark/BigQuery • LightGBM • PyTorch • MLflow • GCP/Azure • Experiment design
 
 content:
+  # ———————————————————————————————————————
   - title: Industry Experience
     layout: list
     content:
@@ -32,96 +33,74 @@ content:
         title: WebstaurantStore
         link: https://www.webstaurantstore.com
         sub_title: Data Scientist
-        caption: Feb 2024 – Present
+        caption: Feb 2024 – Present
         description: |
-          - **Cut churn 20 %** with LightGBM propensity model (Spark, BigQuery, MLflow).  
-          - **Boosted trial‑to‑paid 15 %** via seasonality tagging & promo dashboard.  
-          - **Raised search engagement 10 %** using learning‑to‑rank re‑ranker.  
-          - Productionised with FastAPI, Docker & CI/CD.
+          - Built a **GBDT churn‑propensity model** (LightGBM, Spark) that **cut subscription churn 20 %** and now **scores 2 M users nightly** via MLflow.
+          - Deployed a **learning‑to‑rank search re‑ranker** that lifted CTR 10 % and engagement 15 %.
       - layout: left
         title: Paylocity
         link: https://www.paylocity.com
         sub_title: Data Science Intern
-        caption: May 2023 – Aug 2023
+        caption: May 2023 – Aug 2023
         description: |
-          - Deployed streaming LightGBM fraud service on AKS; **30 % false‑positive drop**.
-      - title: Earlier Experience
-        layout: text
-        content: |
-          <details><summary><strong>Show 2021 and earlier roles</strong></summary>
+          - Shipped an Azure/Kubernetes streaming **fraud‑detection service** (LightGBM + SHAP) that trimmed false‑positive alerts and manual reviews 30 %.
 
-          **Anheuser‑Busch InBev — Data Scientist I (Aug 2021 – Mar 2022)**  
-          - Led assortment optimisation; **+4 % revenue** across 10 k stores.  
-          - Improved SKU substitution; **10 % forecast lift**.
+  # ———————————————————————————————————————
+  - title: |
+      <details><summary>Earlier&nbsp;Experience (click to expand)</summary>
+    layout: text
+    content: |
+      <div markdown="1">
+      - **Anheuser‑Busch InBev — Data Scientist I** (Aug 2021 – Mar 2022)  
+        +4 % revenue across 10 k stores via assortment‑optimisation; 10 % ↑ forecast accuracy with SKU‑substitution logic.
+      - **McKinsey & Company — Data Science Consultant** (Mar 2020 – Aug 2021)  
+        Modelled TAM & look‑alike segments across 200 M rows, driving 9–12 % KPI lifts; mentored analysts.
+      - **Meesho — Data Science Consultant** (Mar 2020 – Aug 2021)  
+        UI experiments ↑ time‑on‑app 15 %, CTR 9 %; rolled out screen‑recording analytics tool.
+      </div>
+      </details>
 
-          **McKinsey & Company — Data Science Consultant (Mar 2020 – Aug 2021)**  
-          - Modeled TAM & segments (200 M rows), delivering **$4–6 M uplift**.  
-          - Mentored 4 analysts; aligned teams to OKRs.
-
-          **Meesho — Data Science Consultant (Mar 2020 – Aug 2021)**  
-          - Instrumented discovery funnel; **+15 % time‑on‑app**, **+9 % CTR**.  
-          - Deployed screen‑record analytics for product insights.
-
-          </details>
-
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: Georgia Institute of Technology
-        caption: 2022 – 2023
-        sub_title: MS Analytics
-        description: |
-          - Coursework in ML, analytical modeling and NLP.  
-          - 2× Graduate TA for “Analytical Modeling”.
-      - layout: left
-        title: Netaji Subhas Institute of Technology
-        caption: 2015 – 2019
-        sub_title: B.E. Instrumentation & Control
-        description: |
-          - Control‑systems & signal‑processing foundation for scalable data pipelines.
-
+  # ———————————————————————————————————————
   - title: Projects
     layout: list
     content:
       - layout: top-middle
         title: LLM‑assisted Clinical‑Note Scorer
         link: https://github.com/sakshamarora97/clinical-note-scorer
-        additional_links:
-          - title: Code
-            icon: fab fa-github
-            url: https://github.com/sakshamarora97/clinical-note-scorer
         description: |
-          Fine‑tuned Tk‑Instruct transformer to auto‑score medical notes, cutting chart‑review time 70 %; demonstrates Gen‑AI and NLP skills.
+          - Fine‑tuned **Tk‑Instruct** to surface medically relevant phrases, automating chart reviews; demo Streamlit app lets recruiters play with the model.
       - layout: top-middle
         title: Bayesian Marketing‑Mix Sandbox
-        link: https://github.com/sakshamarora97/bayesian_mmm
-        additional_links:
-          - title: Code
-            icon: fab fa-github
-            url: https://github.com/sakshamarora97/bayesian_mmm
+        link: https://github.com/sakshamarora97/bayes-mmm
         description: |
-          PyMC pipeline that disentangles media spend & seasonality with interactive scenario planner; showcases causal inference and MLOps.
+          - Open‑sourced a **PyMC pipeline** with scenario planner; illustrates experimental‑design rigour & end‑to‑end MLOps (Docker, FastAPI, dashboards).
       - layout: top-middle
-        title: ML Product Accelerators (Internal)
+        title: Internal ML Product Accelerators
         description: |
-          Re‑usable uplift, ranking and feature‑store notebooks; shortened concept‑to‑deploy for cross‑functional squads (details under NDA).
+          - Re‑usable notebooks for uplift modelling, search‑ranking features and feature‑store ETL; shorten concept‑to‑deploy time for cross‑functional squads.
 
-  - title: A Little More About Me
-    layout: text
-    content: |
-      When I’m not shipping models you’ll find me rock‑climbing, gaming, or knitting badly‑fitting sweaters.
-      ![Trees](/sakshamarora97.github.io/images/landscape-trees.jpg "Trees")
+  # ———————————————————————————————————————
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Georgia Institute of Technology
+        caption: 2022 – 2023
+        sub_title: MS Analytics
+        description: |
+          - Coursework in analytical modelling, ML & deep‑learning‑for‑text underpins both marketing experiments and production ML.
+      - layout: left
+        title: Netaji Subhas Institute of Technology
+        caption: 2015 – 2019
+        sub_title: B.E. Instrumentation & Control
+        description: |
+          - Hardware‑meets‑software foundation that informs scalable data pipelines and causal‑impact frameworks.
 
-footer_show_references: true
+# Footer
+footer_show_references: false
 
+# Build settings
 remote_theme: sproogen/resume-theme
-minimal_mistakes_skin: "contrast"
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
 plugins:
-  - jekyll-seo-tag
-  - jekyll-remote-theme
+ - jekyll-seo-tag
+ - jekyll-remote-theme
