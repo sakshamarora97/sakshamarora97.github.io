@@ -4,42 +4,37 @@
    Earlier-experience accordion styling
 ----------------------------------------------------- */
 
-/* 1. container — same spacing as a normal job card */
-details.earlier-experience{margin-top:2rem;border:none;}
+/* ---------------------------------------------------
+   Accordion: header & inner cards
+   -------------------------------------------------- */
 
-/* 2. summary line — big, bold, obvious */
-details.earlier-experience summary{
-  font-size:1.35rem;          /* = .title in the theme */
-  font-weight:700;
-  cursor:pointer;
-  padding:.35rem 0;
-  margin:0;                   /* align with section h3s */
-  list-style:none;            /* hide native marker  */
-  color:var(--theme-text);    /* inherit body colour   */
+/* container — same top margin as a job card */
+details.earlier-experience {
+  margin-top: 2rem;
+  border: none;            /* strip default grey border */
 }
 
-/* chevron ▸ / ▾ */
-details.earlier-experience summary::before{
-  content:"▸";
-  margin-right:.5rem;
-  transition:transform .25s;
-}
-details.earlier-experience[open] summary::before{content:"▾";}
-
-/* subtle hover cue */
-details.earlier-experience summary:hover{text-decoration:underline;}
-
-/* 3. inner job cards — borrow the theme’s grid */
-details.earlier-experience .experience-item {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 0.75rem;
-}
+/* summary line — make it look like a section heading */
 details.earlier-experience summary {
-  font-size: 1.4rem;   /* makes it the same height as “Industry Experience” */
+  font-size: 1.35rem;       /* = “Industry Experience” size */
   font-weight: 700;
   cursor: pointer;
   padding: .35rem 0;
-  list-style: none;
+  list-style: none;         /* hide native marker */
   color: var(--theme-text);
+}
+
+/* chevron ▸ / ▾  + underline on hover */
+details.earlier-experience summary::before {
+  content: "▸";
+  margin-right: .5rem;
+  transition: transform .25s;
+}
+details.earlier-experience[open] summary::before { content: "▾"; }
+details.earlier-experience summary:hover { text-decoration: underline; }
+
+/* inner job cards — borrow the exact grid the theme uses */
+details.earlier-experience .experience-item {
+  @extend .left;            /* piggy-back the theme’s “left” layout */
+  margin-bottom: 1.4rem;
 }
