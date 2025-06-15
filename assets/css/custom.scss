@@ -1,3 +1,5 @@
+---
+---
 /* ----------------------------------------------------
    Earlier-experience accordion styling
 ----------------------------------------------------- */
@@ -31,4 +33,12 @@ details.earlier-experience summary:hover{text-decoration:underline;}
 details.earlier-experience .experience-item{
   @extend .left;              /* piggy-back the existing layout */
   margin-bottom:1.4rem;
+}
+details.earlier-experience summary {
+  font-size: 1.4rem;   /* makes it the same height as “Industry Experience” */
+  font-weight: 700;
+  cursor: pointer;
+  padding: .35rem 0;
+  list-style: none;
+  color: var(--theme-text);
 }

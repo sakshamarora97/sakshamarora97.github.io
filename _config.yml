@@ -5,7 +5,7 @@ favicon: images/favicon.ico
 # Content configuration version
 version: 2
 custom_css:
-  - /assets/css/custom.scss
+  - /assets/css/custom.css
 # Personal info
 name: Saksham Arora
 title: Data Scientist III
