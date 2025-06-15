@@ -30,6 +30,11 @@ details.earlier-experience[open] summary::before{content:"▾";}
 details.earlier-experience summary:hover{text-decoration:underline;}
 
 /* 3. inner job cards — borrow the theme’s grid */
+details.earlier-experience .experience-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.75rem;
+}
 details.earlier-experience summary {
   font-size: 1.4rem;   /* makes it the same height as “Industry Experience” */
   font-weight: 700;
