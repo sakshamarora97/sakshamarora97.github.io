@@ -4,7 +4,8 @@ favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
-
+custom_css:
+  - /assets/css/custom.scss
 # Personal info
 name: Saksham Arora
 title: Data Scientist III
@@ -45,21 +46,38 @@ content:
   - title: Earlier Experience
     layout: text
     content: |
-      <details>
-      <summary><strong>Click to expand earlier roles</strong></summary>
+<details class="earlier-experience">
+  <summary>Earlier Experience&nbsp;(2019 – 2022)</summary>
 
-      **Anheuser‑Busch InBev — Data Scientist I (Aug 2021 – Mar 2022)**  
-      • Co‑led assortment optimisation yielding **+4 % revenue** across 10 k stores.  
-      • Improved substitution logic ↑10 % forecast accuracy.
+  <!-- Job cards below keep exactly the same “layout: left” grid as the main list.
+       Just add the utility class .experience-item so the new CSS can grab them. -->
 
-      **McKinsey & Company — Data Science Consultant (Mar 2020 – Aug 2021)**  
-      • Modelled TAM & adoption drivers on 200 M rows, fueling personalised features worth \$4‑6 M.  
-      • Mentored analysts and aligned multi‑disciplinary squads with OKRs.
+  <div class="experience-item">
+    <h3 class="title">Anheuser-Busch InBev <span class="sub_title">Data Scientist I</span></h3>
+    <span class="caption">Aug 2021 – Mar 2022</span>
+    <ul>
+      <li>Co-led assortment-optimisation & elasticity modelling (+4 % revenue across 10 k stores).</li>
+      <li>Enhanced low-volume SKU substitution logic, improving forecast accuracy 10 %.</li>
+    </ul>
+  </div>
 
-      **Meesho — Data Science Consultant (Mar 2020 – Aug 2021)**  
-      • Instrumented discovery funnels; UI experiments ↑15 % time‑on‑app, ↑9 % CTR.  
+  <div class="experience-item">
+    <h3 class="title">McKinsey & Company <span class="sub_title">Data Science Consultant</span></h3>
+    <span class="caption">Mar 2020 – Aug 2021</span>
+    <ul>
+      <li>Modelled TAM, look-alike segments & adoption drivers across 200 M+ rows, driving 9–12 % KPI lifts.</li>
+      <li>Mentored analysts; kept cross-functional squads aligned with OKRs.</li>
+    </ul>
+  </div>
 
-      </details>
+  <div class="experience-item">
+    <h3 class="title">Meesho <span class="sub_title">Data Science Consultant</span></h3>
+    <span class="caption">Mar 2020 – Aug 2021</span>
+    <ul>
+      <li>Instrumented discovery funnels & ran UI experiments, lifting time-on-app 15 % and CTR 9 %.</li>
+    </ul>
+  </div>
+</details>
 
   - title: Education
     layout: list

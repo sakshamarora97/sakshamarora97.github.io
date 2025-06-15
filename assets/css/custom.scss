@@ -1,0 +1,29 @@
+/* --- Accordion (Earlier Experience) ------------------------------- */
+details.earlier-experience {
+  margin-top: 1.75rem;               /* same spacing as a job card   */
+  border: none;                      /* kill default grey border     */
+}
+
+details.earlier-experience summary {
+  font-size: 1.15rem;                /* matches h3 in theme          */
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;                  /* hide default arrow           */
+  padding: .25rem 0;
+}
+
+/* custom chevron ▸ / ▾ */
+details.earlier-experience summary::before {
+  content: "▸";
+  margin-right: .5rem;
+  transition: transform .25s;
+}
+
+details.earlier-experience[open] summary::before {
+  content: "▾";
+}
+
+details.earlier-experience .experience-item {
+  @extend .left;                     /* reuse the theme’s “left” job card style */
+  margin-bottom: 1.4rem;
+}
