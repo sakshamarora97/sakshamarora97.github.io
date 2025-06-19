@@ -134,7 +134,6 @@ content:
         description: |
           Made many mistakes - deep diving in rabbit holes, fitting functions to data just for the sake of it, inefficent code etc.
 
-    content:
       - layout: top-middle
         title: Why does Kadane's Algorithm work
         link: https://medium.com/@saksham.arora97/maximum-sum-subarray-why-does-kadanes-algorithm-work-66f98c072438
