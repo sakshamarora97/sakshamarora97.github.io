@@ -10,17 +10,17 @@
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
   {%- include header.html -%}
-<nav class="site-nav">
-  <ul>
-    {% for section in site.config.content %}
-      <li>
-        <a href="#{{ section.title | slugify }}">
-          {{ section.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
+  <nav class="site-nav">
+    <ul>
+      {% for section in site.config.content %}
+        <li>
+          <a href="#{{ section.title | slugify }}">
+            {{ section.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
