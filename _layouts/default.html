@@ -9,17 +9,21 @@
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
   {%- include header.html -%}
-  <nav class="site-nav">
-    <ul>
-      {% for section in site.content %}
-        <li>
-          <a href="#{{ section.title | slugify }}">
-            {{ section.title }}
-          </a>
+<nav class="top-nav">
+  <ul class="top-nav__list">
+    <!-- manual “About” link comes first -->
+    <li class="top-nav__item"><a href="#about">About&nbsp;Me</a></li>
+
+    <!-- then everything you listed in _config.yml -->
+    {% for section in site.content %}
+      {% unless section.title contains 'Earlier Experience' %}
+        <li class="top-nav__item">
+          <a href="#{{ section.title | slugify }}">{{ section.title }}</a>
         </li>
-      {% endfor %}
-    </ul>
-  </nav>
+      {% endunless %}
+    {% endfor %}     
+  </ul>
+</nav>
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
