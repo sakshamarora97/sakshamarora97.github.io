@@ -4,3 +4,26 @@
 
 @import 'modern-resume-theme';
 
+.site-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
