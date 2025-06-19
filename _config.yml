@@ -155,4 +155,3 @@ footer_show_references: true
 remote_theme: sproogen/resume-theme
 plugins:
   - jekyll-seo-tag
-  - jekyll-remote-theme
