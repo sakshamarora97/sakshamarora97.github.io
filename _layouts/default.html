@@ -11,7 +11,7 @@
   {%- include header.html -%}
   <nav class="site-nav">
     <ul>
-      {% for section in site.config.content %}
+      {% for section in site.content %}
         <li>
           <a href="#{{ section.title | slugify }}">
             {{ section.title }}
