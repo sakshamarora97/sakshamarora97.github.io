@@ -96,7 +96,7 @@ content:
         quote: >-
           Fine‑tuned Tk‑Instruct to automate chart reviews.
         description: |
-          - Demonstrates Gen‑AI skill transfer to any text‑heavy domain.
+          Demonstrates Gen‑AI skill transfer to any text‑heavy domain.
 
       - layout: top-middle
         title: Bayesian Marketing‑Mix Modeling Sandbox
@@ -104,7 +104,7 @@ content:
         quote: >-
           PyMC pipeline disentangling media spend & seasonality.
         description: |
-          - Interactive scenario planner; 
+          Interactive scenario planner; 
 
       - layout: top-middle
         title: Outfit Compatibility Scoring
@@ -132,7 +132,7 @@ content:
         quote: >-
           Analyzed my youtube watch time data in R! 
         description: |
-          - made many mistakes - deep diving in rabbit holes, fitting functions to data just for the sake of it, inefficent code etc.
+          Made many mistakes - deep diving in rabbit holes, fitting functions to data just for the sake of it, inefficent code etc.
 
     content:
       - layout: top-middle
@@ -141,7 +141,7 @@ content:
         quote: >-
           Started leetcoding, really want to go deep on the Maximum Subarry problem 
         description: |
-          - Deep dived on why Kadane's works, and building an intuition for it
+          Deep dived on why Kadane's works, and building an intuition for it
 
   - title: A Little More About Me
     layout: text
