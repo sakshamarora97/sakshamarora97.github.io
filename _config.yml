@@ -20,7 +20,7 @@ darkmode: false
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  **I turn data into growth.** Full‑stack data scientist with 4+ years' experience shipping ML & analytics that lift revenue, cut churn and scale ops. Signature wins include **↓20 % churn**, **↑4 % revenue**, and **↓30 % fraud noise**.
+  **I turn data into growth.** Full‑stack data scientist(ML + Product Analytics) with 4+ years' experience shipping ML & analytics that lift revenue, cut churn and scale ops. Signature wins include **↓20 % churn**, **↑4 % revenue**, and **↓30 % fraud noise**.
 
 content:
   - title: Industry Experience
@@ -85,37 +85,68 @@ content:
         caption: 2015 – 2019
         sub_title: B.E. Instrumentation & Control
         description: |
-          - Foundation in control systems and signal processing underpinning scalable data pipelines.
+          - Foundation in control systems and signal processing, funfacts - coded basic programs in 8085, learnt about flipflops, time frequency domain and something about 3d integrals!
 
   - title: Projects
     layout: list
     content:
       - layout: top-middle
         title: LLM‑assisted Clinical‑Note Scorer
-        link: https://github.com/sakshamarora97/clinical-note-scorer
+        link: https://github.com/sakshamarora97/instruction-tuned-clinical-notes-scoring
         quote: >-
           Fine‑tuned Tk‑Instruct to automate chart reviews.
         description: |
           - Demonstrates Gen‑AI skill transfer to any text‑heavy domain.
+
       - layout: top-middle
         title: Bayesian Marketing‑Mix Modeling Sandbox
         link: https://github.com/sakshamarora97/mmm-sandbox
         quote: >-
           PyMC pipeline disentangling media spend & seasonality.
         description: |
-          - Interactive scenario planner; illustrates experimental‑design rigour and MLOps.
+          - Interactive scenario planner; 
+
       - layout: top-middle
-        title: Internal ML Product Accelerators
-        link: https://github.com/sakshamarora97
-        quote: >-
-          Re‑usable notebooks for uplift modelling and feature‑store ETL.
+        title: Outfit Compatibility Scoring
+        link: https://github.com/sakshamarora97/outfit-compatibility-scoring
+        quote: >- 
+          Implemented Outfit Compatibility as a Fill-in-the-blank task, representing categories as Graphs
         description: |
-          - Shortens concept‑to‑deploy time for cross‑functional squads (details under NDA).
+          Used multimodal precomputed embeddings that ranks clothing items by style compatibility on the Polyvore Outfits benchmark.
+
+      - layout: top-middle
+        title: Network Monitoring Optimisation
+        link: https://github.com/sakshamarora97/network-monitoring-optimization
+        quote: >-
+          Optimization problem solved using Linear Programming in Gurobi
+        description: |
+          Modeled the problem of placing the minimum amount of sensors in order to detect pipe bursts in a network of pipelines 
+
+  - title: Articles
+    layout: list
+
+    content:
+      - layout: top-middle
+        title: EDA of my Youtube Data
+        link: https://medium.com/@saksham.arora97/exploratory-analysis-of-youtube-watch-history-using-r-db6ecb24e5cd
+        quote: >-
+          Analyzed my youtube watch time data in R! 
+        description: |
+          - made many mistakes - deep diving in rabbit holes, fitting functions to data just for the sake of it, inefficent code etc.
+
+    content:
+      - layout: top-middle
+        title: Why does Kadane's Algorithm work
+        link: https://medium.com/@saksham.arora97/maximum-sum-subarray-why-does-kadanes-algorithm-work-66f98c072438
+        quote: >-
+          Started leetcoding, really want to go deep on the Maximum Subarry problem 
+        description: |
+          - Deep dived on why Kadane's works, and building an intuition for it
 
   - title: A Little More About Me
     layout: text
     content: |
-      Outside data science I enjoy bouldering, mechanical keyboards and improvised jazz.
+      Outside data science I enjoy working out, stand up, hiking, soccer and piano/guitar.
 
 # Footer
 footer_show_references: true
