@@ -2,36 +2,43 @@
 ---
 @import 'modern-resume-theme';
 
-/* ———  Top nav bar  —————————————————————————————— */
+/* ——— Top navigation bar ——————————————————————————— */
 .top-nav {
-  position: sticky;   /* stays in view while you scroll   */
+  position: sticky;
   top: 0;
   z-index: 1000;
   background: #fff;
-  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
   padding: .75rem 1rem;
 }
 
 .top-nav__list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;        /* space between links             */
+  justify-content: center;
+  gap: 2rem;
+  margin: 0; padding: 0;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .top-nav__item a {
   font-weight: 600;
   text-decoration: none;
-  color: #555;
+  color: #444;
+  position: relative;
 }
-
-.top-nav__item a:hover,
-.top-nav__item a:focus {
-  color: #000;
-  border-bottom: 2px solid currentColor;  /* subtle hover cue */
+.top-nav__item a::after {               /* animated underline */
+  content: '';
+  position: absolute;
+  left: 0; bottom: -.25rem;
+  width: 0; height: 2px;
+  background: currentColor;
+  transition: width .2s ease;
 }
+.top-nav__item a:hover::after,
+.top-nav__item a.is-active::after { width: 100%; }
 
-/* ensure headings don’t hide under the sticky bar */
-body { scroll-margin-top: 4.5rem; }
+.top-nav__item a.is-active { color: #000; }
+
+/* smooth scrolling + offset so headings aren’t hidden */
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 4.5rem; }
