@@ -2,6 +2,34 @@
 ---
 @import 'modern-resume-theme';
 
+/* ——— Mobile tweaks (≤ 768 px) ——————————————————————— */
+@media (max-width: 768px) {
+
+  /* 1. Make the bar a single-row, swipe-able strip           */
+  .top-nav {
+    padding: .5rem .75rem;        /* a bit tighter            */
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .top-nav__list {
+    flex-wrap: nowrap;            /* prevent ugly second row  */
+    overflow-x: auto;             /* allow sideways scroll    */
+    -webkit-overflow-scrolling: touch;   /* momentum scroll iOS */
+    gap: 1rem;                    /* tighter gap on phones    */
+  }
+
+  /* 2. Shrink link text just on mobile                       */
+  .top-nav__item a {
+    font-size: .875rem;           /* ~14 px                   */
+  }
+
+  /* 3. Hide the underline on hover (no cursor on touch)      */
+  .top-nav__item a::after { display: none; }
+}
+
+/* ensures the bar’s height stays out of view-port math      */
+body { scroll-margin-top: 4.5rem; }
+
 img.center {
   display: block;
   margin-left: auto;
