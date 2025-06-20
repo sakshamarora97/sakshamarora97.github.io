@@ -101,7 +101,7 @@ content:
         quote: >
           Fine‑tuned Tk‑Instruct to automate chart reviews.
         description: |
-          # ![llm_score](/images/llm_score_awicon.png){:.center .w-50}        
+          ![llm_score](/images/llm_score_awicon.png){:.center .w-50}        
         # description: |
         #   Demonstrates Gen‑AI skill transfer to any text‑heavy domain.
 
@@ -116,7 +116,7 @@ content:
           Implemented Outfit Compatibility as a Fill-in-the-blank task, representing categories as Graphs
         description: |
           Used multimodal precomputed embeddings that ranks clothing items by style compatibility on the Polyvore Outfits benchmark.
-          ![outfit-compatibility](/images/outfit-compatibility.png){: width="150" .center }        
+          ![outfit-compatibility](/images/outfit-compatibility.png){:.center .w-50}        
 
       - layout: top-middle
         title: Network Monitoring Optimisation
@@ -128,7 +128,7 @@ content:
         quote: >
           Optimization problem solved using Linear Programming in Gurobi
         description: |
-          ![network-optimization](/images/network-optimization.png){: width="150" .center }        
+          ![network-optimization](/images/network-optimization.png){:.center .w-50}        
         #   Modeled the problem of placing the minimum amount of sensors in order to detect pipe bursts in a network of pipelines 
 
       - layout: top-middle
