@@ -101,7 +101,7 @@ content:
         quote: >
           Fine‑tuned Tk‑Instruct to automate chart reviews.
         description: |
-          ![llm_score](/images/llm_score_awicon.png){:.center .w-50}        
+          ![llm_score](/images/llm_score_awicon.png){:.center .w-25}        
         # description: |
         #   Demonstrates Gen‑AI skill transfer to any text‑heavy domain.
 
