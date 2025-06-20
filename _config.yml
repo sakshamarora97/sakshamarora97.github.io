@@ -101,7 +101,7 @@ content:
         quote: >
           Fine‑tuned Tk‑Instruct to automate chart reviews.
         description: |
-            ![assortment_Freepik](/images/assortment_Freepik.png)        
+            ![assortment_Freepik](/images/assortment_Freepik.png){: width="220" .left }        
         # description: |
         #   Demonstrates Gen‑AI skill transfer to any text‑heavy domain.
 
