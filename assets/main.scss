@@ -2,17 +2,15 @@
 ---
 @import 'modern-resume-theme';
 
-.item-thumb{
-  max-width:100%;
-  border-radius:.5rem;
-  margin:.5rem 0 1rem;
-  box-shadow:0 2px 6px rgba(0,0,0,.08);
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* force identical card heights, cropping excess */
-.item-thumb{
-  aspect-ratio: 3 / 2;      /* maintains 3:2 frame */
-  object-fit: cover;        /* trim edges if taller */
-}
+img.w-50  { width: 50%;  }
+img.w-25  { width: 25%;  }
+img.w-200 { width: 200px; }   /* fixed-pixel version */
+
 
 /* ——— Top navigation bar ——————————————————————————— */
 .top-nav {
