@@ -115,8 +115,8 @@ content:
         quote: >
           Implemented Outfit Compatibility as a Fill-in-the-blank task, representing categories as Graphs
         description: |
-          Used multimodal precomputed embeddings that ranks clothing items by style compatibility on the Polyvore Outfits benchmark.
           ![outfit-compatibility](/images/outfit-compatibility.png){:.center .w-50}        
+        # Used multimodal precomputed embeddings that ranks clothing items by style compatibility on the Polyvore Outfits benchmark.
 
       - layout: top-middle
         title: Network Monitoring Optimisation
@@ -140,8 +140,8 @@ content:
             url: github.com/sakshamarora97/mmm-sandbox        
         quote: >
           PyMC pipeline disentangling media spend & seasonality.
-        description: |
-          Interactive scenario planner; 
+        # description: |
+        #   Interactive scenario planner; 
 
   - title: Articles
     layout: list
