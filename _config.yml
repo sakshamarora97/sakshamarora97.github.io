@@ -92,6 +92,7 @@ content:
     content:
       - layout: top-middle
         title: LLM‑assisted Clinical‑Note Scorer
+        image: /images/llm_score_awicon.png
         # link: github.com/sakshamarora97/instruction-tuned-clinical-notes-scoring
         additional_links:
           - title:  sakshamarora97/instruction-tuned-clinical-notes-scoring
@@ -101,7 +102,7 @@ content:
         quote: >
           Fine‑tuned Tk‑Instruct to automate chart reviews.
         description: |
-          ![llm_score](/images/llm_score_awicon.png){: width="150" .center }        
+          # ![llm_score](/images/llm_score_awicon.png){: width="150" .center }        
         # description: |
         #   Demonstrates Gen‑AI skill transfer to any text‑heavy domain.
 
